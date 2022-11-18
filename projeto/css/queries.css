@@ -1,0 +1,84 @@
+@media (max-width: 970px) {
+  .flex {
+    max-width: 300px;
+    margin: 0 auto;
+    padding-left: 20px;
+    margin-top: 60px;
+  }
+  .msg {
+    top: 55px;
+    left: 4px;
+  }
+}
+
+@media (max-width: 932px) {
+  .tag {
+    display: none;
+  }
+
+  .contato-arroba {
+    display: none;
+  }
+
+  .img-sobre {
+    display: none;
+  }
+}
+
+@media (max-width: 760px) {
+  .topo {
+    display: none;
+  }
+
+  .icon-mob {
+    display: flex;
+  }
+}
+
+@media (max-width: 500px) {
+  .conteudo-main h1 {
+    font-size: clamp(6rem, 10vw, 2rem);
+  }
+  .conteudo-main span {
+    display: none;
+  }
+  .conteudo-main h2 {
+    font-size: clamp(2rem, 10vw, 2rem);
+  }
+  .contato-info p {
+    font-size: clamp(2rem, 10vw, 2rem);
+  }
+  .contato-info a {
+    font-size: clamp(2rem, 10vw, 2rem);
+  }
+}
+
+@media (max-width: 365px) {
+  .flex {
+    transform: scale(0.8);
+    gap: 50px;
+  }
+
+  .box {
+    margin: 0 50px;
+    width: 250px;
+  }
+
+  .atras {
+    width: 250px;
+  }
+
+  .frente::before {
+    top: -15px;
+  }
+
+  .msg {
+    width: 240px;
+  }
+}
+
+@media (max-width: 300px) {
+  .flex {
+    display: none;
+  }
+}

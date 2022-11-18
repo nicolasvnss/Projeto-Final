@@ -1,0 +1,102 @@
+.sobre {justify-content: center; width: 100%;max-width: 1200px;margin: 0 auto;display: flex;flex-wrap: wrap;}
+.sobre-info {background-color: #2222222c;flex: 2;margin: 10px;padding: 10px;}
+.sobre-info p {text-align: justify;font-size: 2.2rem;line-height: 3rem; margin: 20px 10px;}
+.img-sobre {
+  background-color: #2222222c;
+  background-image: url(https://blog.wyden.com.br/wp-content/uploads/2022/04/martha-falcao.png);
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  padding: 10px;
+  margin: 10px;}
+.icones-skills { margin: 0 auto;display: flex;justify-content: space-between;}
+.icones-skills img {margin: 10px;padding: 10px;width: 120px;background-color: #2222222c;}
+.caixa {display: flex;flex-direction: column-reverse;}
+.skills {justify-content: center;width: 100%;height: 100%;max-width: 1200px;margin: 0 auto;display: flex;flex-wrap: wrap;}
+.skills-info {flex: 2 500px;padding: 10px;margin: 10px;background-color: #2222222c;}
+.skills-info p {text-align: justify;font-size: 2.2rem;line-height: 3rem;margin: 20px 10px;}
+.codepen { background-color: #2222222c;max-width: 400px;height: 100%;padding: 10px;margin: 10px;background-color: #2222222c;border: 1px dashed #2c2c2c;}
+.codepen p { line-height: 3rem; text-align: justify; font-size: 2.2rem; margin: 40px 10px;}
+.projetos { width: 100%; max-width: 1200px; margin: 0 auto; display: flex;flex-wrap: wrap;}
+.projetos-info { flex: 1; padding: 10px;margin: 10px;background-color: #2222222c;}
+.projetos-info a {font-weight: normal;}
+.projetos-info p {text-align: justify; margin: 10px;}
+.projetos-info .git { margin: 20px 10px;font-size: 2rem;}
+.projetos-info .git a { font-weight: bold;}
+.msg {display: block;
+  position: absolute;
+  top: 54.5px;
+  left: 15px;
+  width: 270px;
+  height: 190px;
+  background-color: #f3f2f2;
+  transition: 0.3s ease-in-out;}
+.msg p {font-size: 2.5rem;}
+.box:hover .msg { transform: translatey(-110px);box-shadow: 5px 5px 5px #2c2c2c;}
+.flex {margin-top: 60px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;}
+.box { position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;}
+.atras {position: absolute;
+  width: 280px;
+  height: 200px;
+  background: #2c2c2c;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;}
+.atras::before {top: -20px;
+  content: "";
+  position: absolute;
+  width: 90px;
+  height: 20px;
+  background: #2c2c2c;
+  border-top-right-radius: 10px;}
+.frente {position: relative;
+  top: 20px;
+  left: -20px;
+  width: 280px;
+  height: 200px;
+  background: #ffd700;
+  box-shadow: 3px 3px 3px #2c2c2c;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;}
+.frente::before { top: -20px;
+  content: "";
+  position: absolute;
+  width: 90px;
+  height: 20px;
+  background: #ffd700;
+  border-top-right-radius: 10px;}
+.contato {justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;}
+.contato-info {height: 100%;
+  background-color: #2222222c;
+  flex: 2;
+  margin: 10px;
+  padding: 10px;}
+.contato-info p {text-align: justify;height: 100%;font-size: clamp(3rem, 10vw, 2rem);margin: 20px 10px;}
+.contato-info a {font-size: clamp(3rem, 10vw, 2rem);}
+.contato-arroba { display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2222222c;
+  width: 400px;
+  font-size: 20rem;
+  padding: 10px;
+  margin: 10px;}
+.contato-arroba .arroba {transform: translateY(-21px);}
